@@ -2,9 +2,7 @@
 
 A responsive and accessible **React-based web application** that allows customers to **book a table at the Little Lemon restaurant**. Built as part of the Meta Front-End Developer Capstone on Coursera.
 
-## 📸 Screenshot
 
-![Screenshot](public/screenshot.png) <!-- Replace with actual screenshot if available -->
 
 ---
 
