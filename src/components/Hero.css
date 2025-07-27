@@ -1,0 +1,8 @@
+.hero {
+  background: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c') center/cover no-repeat;
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}

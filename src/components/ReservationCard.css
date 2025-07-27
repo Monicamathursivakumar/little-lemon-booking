@@ -1,0 +1,81 @@
+.reserve-section {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+  background-color: #fffdf5;
+}
+
+.reserve-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.reserve-card:hover {
+  transform: translateY(-6px);
+}
+
+.reserve-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 500px;
+}
+
+.reserve-content {
+  padding: 2.5rem 3rem;
+}
+
+.reserve-content h2 {
+  font-size: 2.5rem;
+  color: #3a6e5a;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.reserve-content p {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.reserve-link {
+  display: inline-block;
+  background-color: #f4ce14;
+  color: #333;
+  padding: 0.85rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.reserve-link:hover {
+  background-color: #e3bb0f;
+  transform: scale(1.03);
+}
+
+@media (min-width: 768px) {
+  .reserve-card {
+    flex-direction: row;
+  }
+
+  .reserve-card img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .reserve-content {
+    width: 50%;
+    padding: 3rem;
+  }
+}
