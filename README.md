@@ -1,48 +1,92 @@
 # 🍋 Little Lemon - Table Booking App
 
-A responsive and accessible **React-based web application** that allows customers to **book a table at the Little Lemon restaurant**. Built as part of the Meta Front-End Developer Capstone on Coursera.
+A modern, responsive React application built to allow customers to reserve a table at the fictional **Little Lemon Restaurant**. This project is part of the **Meta Front-End Developer Professional Certificate** Capstone on Coursera.
 
+---
 
 
 ---
 
-## 🚀 Live Preview
+## 🚀 Live Link
 
-Coming soon (optional): You can deploy using [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/).
+If deployed, provide the link here. Example:
 
----
-
-## 🛠️ Features
-
-- 📅 **Table Booking Form** with field validation
-- 🧪 **Unit-tested** form logic using Jest
-- 🖼️ Reservation and contact **info cards**
-- ♿ **Accessible**: Proper semantic HTML and ARIA tags
-- 📱 **Responsive Design**: Optimized for mobile and desktop
-- 🌐 Smooth navigation using **React Router**
+[🔗 View Live Site](http://localhost:3000/)
 
 ---
 
-## 🧩 Tech Stack
+## ✅ Project Features
 
-| Frontend  | Libraries        | Tools       |
-|-----------|------------------|-------------|
-| React     | React Router DOM | VS Code     |
-| JSX/CSS   | React Testing Lib| Git + GitHub |
+- 🧾 **Booking Form** — User-friendly reservation form with validation
+- 🖼️ **Reservation & Contact Cards** — Well-structured UI with key info
+- 🧠 **Accessibility & Semantic HTML** — ARIA labels and screen reader support
+- 🔍 **Unit Testing** — Basic form testing using Jest & React Testing Library
+- 🌐 **Responsive Design** — Works great on mobile, tablet, and desktop
+- ⚛️ **Component-Based Architecture** — Modular React structure
+- 🔄 **Routing** — Page routing using React Router
 
 ---
 
-## 🔧 Project Structure
+## 🧰 Tech Stack
+
+| Area         | Tools/Technologies                |
+|--------------|-----------------------------------|
+| Frontend     | React, JavaScript, HTML, CSS      |
+| Routing      | React Router                      |
+| Styling      | Custom CSS                        |
+| Testing      | Jest, React Testing Library       |
+| Versioning   | Git, GitHub                       |
+| Development  | Visual Studio Code, Git CLI       |
+
+---
+
+## 📁 Folder Structure
+little-lemon-booking/
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/
+│ ├── components/
+│ │ ├── BookingForm.js
+│ │ ├── ReservationCard.js
+│ │ ├── ContactCard.js
+│ │ └── Footer.js
+│ ├── pages/
+│ │ ├── HomePage.js
+│ │ └── BookingPage.js
+│ ├── App.js
+│ ├── index.js
+│ └── App.css
+├── README.md
+├── package.json
+└── .gitignore
+
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+Ensure you have these installed:
+
+- Node.js
+- npm
+- Git
+
+### Installation
 
 ```bash
-src/
-├── components/
-│   ├── BookingForm.js
-│   ├── ReservationCard.js
-│   └── ContactCard.js
-├── pages/
-│   ├── HomePage.js
-│   └── BookingPage.js
-├── App.js
-└── index.js
+# 1. Clone the repository
+git clone https://github.com/Monicamathursivakumar/little-lemon-booking.git
+
+# 2. Navigate into the project folder
+cd little-lemon-booking
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start
+
 
