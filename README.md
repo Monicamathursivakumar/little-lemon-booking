@@ -2,7 +2,7 @@
 
 A modern, responsive React application built to allow customers to reserve a table at the fictional **Little Lemon Restaurant**. This project is part of the **Meta Front-End Developer Professional Certificate** Capstone on Coursera.
 
----
+
 
 
 ---
@@ -40,29 +40,8 @@ If deployed, provide the link here. Example:
 
 ---
 
-## 📁 Folder Structure
-little-lemon-booking/
-├── public/
-│ └── index.html
-├── src/
-│ ├── assets/
-│ ├── components/
-│ │ ├── BookingForm.js
-│ │ ├── ReservationCard.js
-│ │ ├── ContactCard.js
-│ │ └── Footer.js
-│ ├── pages/
-│ │ ├── HomePage.js
-│ │ └── BookingPage.js
-│ ├── App.js
-│ ├── index.js
-│ └── App.css
-├── README.md
-├── package.json
-└── .gitignore
 
 
----
 
 ## ⚙️ Getting Started
 
